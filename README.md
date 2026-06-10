@@ -5,7 +5,7 @@ ryu-manager --wsapi-port 8082 ryu.app.simple_switch_13 ryu.app.ofctl_rest ryu.ap
 
 
 2-
-sudo mn --topo tree,depth=3,fanout=2   --mac   --switch ovsk,protocols=OpenFlow13   --controller remote,ip=127.0.0.1,port=6633 -nat
+sudo mn --topo tree,depth=3,fanout=2   --mac   --switch ovsk,protocols=OpenFlow13   --controller remote,ip=127.0.0.1,port=6633 --nat
 
 
 3-
